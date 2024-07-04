@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 (
 		features= {"src\\test\\resources\\login.feature"},
 		glue= {"stepdef"},
-		plugin= {"pretty"},
+		plugin= {"pretty","html:target/cucumber-reports/amazonreports.html"},
 		publish=true
 )
 
