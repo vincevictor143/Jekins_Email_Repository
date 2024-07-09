@@ -6,16 +6,18 @@ import io.cucumber.java.en.When;
 
 public class Login_StepClass {
 	
-	@Given("User is at login Page")
+	@Given("User is at  login Page")
 	public void user_is_at_login_page()
 	{
 	    System.out.println("User is at login Page");
+	    
 	}
 
 	@When("Use enter the username")
 	public void use_enter_the_username() 
 	{
 		System.out.println("Enter Username");
+		
 	}
 
 	@When("User enter the password")
