@@ -9,7 +9,7 @@ public class Login_StepClass {
 	@Given("User is at  login Page")
 	public void user_is_at_login_page()
 	{
-	    System.out.println("User is at login Page");
+	    System.out.println("User is at login Page sucessfully");
 	    
 	}
 
@@ -37,7 +37,6 @@ public class Login_StepClass {
 	public void user_should_be_successfully_log_in_to_application()
 	{
 		System.out.println("Successfully logged in");
-		System.out.println("Mission Completed");
 	}
 
 }
