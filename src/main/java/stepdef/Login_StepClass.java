@@ -30,12 +30,14 @@ public class Login_StepClass {
 	public void user_click_on_login_button() 
 	{
 		System.out.println("Button clicked");
+		
 	}
 
 	@Then("User should be successfully log in to application")
 	public void user_should_be_successfully_log_in_to_application()
 	{
 		System.out.println("Successfully logged in");
+		System.out.println("Mission Completed");
 	}
 
 }
