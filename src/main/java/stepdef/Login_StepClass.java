@@ -12,14 +12,12 @@ public class Login_StepClass {
 	    System.out.println("User is at login Page sucessfully");
 	    
 	}
-
 	@When("Use enter the username")
 	public void use_enter_the_username() 
 	{
 		System.out.println("Enter Username");
 		
 	}
-
 	@When("User enter the password")
 	public void user_enter_the_password()
 	{
